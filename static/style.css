@@ -1,0 +1,43 @@
+#content {
+    margin: 60px;
+}
+
+h1 {
+    color: yellow;
+    background: purple;
+    display: block;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.center {
+    text-align:center;
+}
+
+h2, h3 {
+    color: green;
+    margin: 30px;
+    font-size: 22px;
+}
+
+p, ul, form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 10px 30px 10px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin: 5px
+}
+
+#logo {
+    float: right;
+    margin: 70px;
+    width: 20%;
+    height: 20%;
+}

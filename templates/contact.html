@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Contact</h2>
+<form action="{{ url_for('send_email') }}" method="post" enctype=”text/plain” name=”EmailForm”>
+    <p><label for="contact">Drop me a line:</label></p>
+    <p><textarea id="contact" name="contact" rows="6" cols="50">Let's talk...</textarea></p>
+    <p><input type="submit" value="Submit"></p>
+</form>
+{% endblock %}
